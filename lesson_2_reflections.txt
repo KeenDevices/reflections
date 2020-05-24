@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: Git makes a .git hidden file that tracks the state of the files in the direct in which you initialize the repository. This must be done in order to track the revision history of the contents; otherwise, it is not a Git repository.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Different from working directory in that it only indexes files ready for the next commit. Different than the repository in that it is not officially serialized, is more informal, and can be added an subtracted from without a history.
