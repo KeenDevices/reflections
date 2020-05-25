@@ -3,3 +3,6 @@ A: Git makes a .git hidden file that tracks the state of the files in the direct
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Different from working directory in that it only indexes files ready for the next commit. Different than the repository in that it is not officially serialized, is more informal, and can be added an subtracted from without a history.
+
+Q: How can you use the staging are to make sure you have one commit per logical changed?
+A: git diff --staged will compare staged index with most current commit in branch. If there is more than one logical change staged, then git reset <file> will remove additional logical changes for future commit.
