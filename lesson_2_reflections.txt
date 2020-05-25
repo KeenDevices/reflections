@@ -6,3 +6,6 @@ A: Different from working directory in that it only indexes files ready for the 
 
 Q: How can you use the staging are to make sure you have one commit per logical changed?
 A: git diff --staged will compare staged index with most current commit in branch. If there is more than one logical change staged, then git reset <file> will remove additional logical changes for future commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Allows for experimentation, allows for a way around a broken build.
