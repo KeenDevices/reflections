@@ -1,1 +1,2 @@
-When would you want to crete a remote repository rather than keeping allyour work local?
+Q: When would you want to crete a remote repository rather than keeping allyour work local?
+A: Welp, I reckon you would use a remote repository to assist collaboration. It also seems handy if your design were to archive or safely duplicate a repository.
