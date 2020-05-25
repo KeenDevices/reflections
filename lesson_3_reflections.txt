@@ -6,3 +6,6 @@ A: You should first verify the state of the remote repository before pulling it.
 
 Q: Describe the dfferences between forks, clones, and branches. When would you use one instead of another?
 A: A fork clones and branches a repository in one step from one Github location to another. A clone copies a repository from one location to another. A branch begins a new path for revision to be recorded.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: You have to know the state of the remote branch when you pulled from it in case it changes before you next visit. It gaves git a way to determine conflict state.
