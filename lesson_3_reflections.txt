@@ -1,2 +1,8 @@
 Q: When would you want to crete a remote repository rather than keeping allyour work local?
 A: Welp, I reckon you would use a remote repository to assist collaboration. It also seems handy if your design were to archive or safely duplicate a repository.
+
+Q: Why might you want to always pull changes maually rather than having Git Automatically stay up-to-date-with your remote repository?
+A: You should first verify the state of the remote repository before pulling it. This would not be comprehensive if it were automatic.
+
+Q: Describe the dfferences between forks, clones, and branches. When would you use one instead of another?
+A: A fork clones and branches a repository in one step from one Github location to another. A clone copies a repository from one location to another. A branch begins a new path for revision to be recorded.
