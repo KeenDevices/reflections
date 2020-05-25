@@ -9,3 +9,6 @@ A: git diff --staged will compare staged index with most current commit in branc
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A: Allows for experimentation, allows for a way around a broken build.
+
+Q: How so the diagrams help you visualize the branch structure?
+A: I didn't make a diagram. I think the one the instructor drew was helpful though.
